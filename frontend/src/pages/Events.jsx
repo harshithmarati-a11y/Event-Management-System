@@ -68,7 +68,7 @@ function Events() {
   className="event-image"
   src={
     event.image
-      ? `http://localhost:5000${event.image}`
+      ? `https://event-management-system-p1cp.onrender.com${event.image}`
       : "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800"
   }
   alt={event.title}

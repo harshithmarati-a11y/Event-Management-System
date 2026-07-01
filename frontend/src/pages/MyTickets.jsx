@@ -66,7 +66,7 @@ function MyTickets() {
                 {ticket.event?.image && (
                   <img
                     className="ticket-image"
-                    src={`http://localhost:5000${ticket.event.image}`}
+                    src={`https://event-management-system-p1cp.onrender.com${ticket.event.image}`}
                     alt={ticket.event.title}
                   />
                 )}

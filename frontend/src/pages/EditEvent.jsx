@@ -44,7 +44,7 @@ function EditEvent() {
       });
 
       if (data.image) {
-        setPreview(`http://localhost:5000${data.image}`);
+        setPreview(`https://event-management-system-p1cp.onrender.com${data.image}`);
       }
     } catch (error) {
       alert("Unable to load event.");

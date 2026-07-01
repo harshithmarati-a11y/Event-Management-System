@@ -32,7 +32,7 @@ function Profile() {
 
       if (data.profileImage) {
         setPreview(
-          `http://localhost:5000${data.profileImage}`
+          `https://event-management-system-p1cp.onrender.com${data.profileImage}`
         );
       }
 

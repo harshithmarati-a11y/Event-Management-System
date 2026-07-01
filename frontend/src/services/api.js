@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://event-management-system-p1cp.onrender.com/api",
 });
 
 // Automatically attach JWT token if available

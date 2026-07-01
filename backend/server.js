@@ -10,6 +10,7 @@ dotenv.config();
 const connectDB = require("./config/db");
 
 // Connect MongoDB
+console.log("MONGO_URI:", process.env.MONGO_URI);
 connectDB();
 
 const app = express();
