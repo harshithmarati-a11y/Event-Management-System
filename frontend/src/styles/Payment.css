@@ -1,0 +1,83 @@
+.payment-container {
+  display: flex;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.payment-content {
+  flex: 1;
+  padding: 40px;
+  color: white;
+}
+
+.payment-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.order-summary,
+.payment-form {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.order-summary h2,
+.payment-form h2 {
+  margin-bottom: 25px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.total {
+  font-size: 22px;
+  color: #8b5cf6;
+  font-weight: bold;
+}
+
+.payment-options {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.payment-options button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;
+}
+
+.pay-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #8b5cf6;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #7c3aed;
+}
